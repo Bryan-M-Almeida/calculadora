@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3965/3965108.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <main>
+        <div class="calculadora-container">
+            <div class="resultado-container">
+                <div class="resultado">0</div>
+            </div>
+            <div class="calculadora">
+                <button class="item" onclick="apagarTudo()">CE</button>
+                <button class="item" onclick="apagar()">C</button>
+                <button class="item" onclick="inserirValor(this)">÷</button>
+
+                <button class="item" onclick="inserirValor(this)">×</button>
+                <button class="item" onclick="inserirValor(this)">7</button>
+                <button class="item" onclick="inserirValor(this)">8</button>
+                <button class="item" onclick="inserirValor(this)">9</button>
+                <button class="item" onclick="inserirValor(this)">-</button>
+                <button class="item" onclick="inserirValor(this)">4</button>
+                <button class="item" onclick="inserirValor(this)">5</button>
+                <button class="item" onclick="inserirValor(this)">6</button>
+                <button class="item" onclick="inserirValor(this)">+</button>
+
+                <button class="item" onclick="inserirValor(this)">1</button>
+                <button class="item" onclick="inserirValor(this)">2</button>
+                <button class="item" onclick="inserirValor(this)">3</button>
+
+                <button class="item resultado" onclick="resposta()">=</button>
+                <button class="item zero" onclick="inserirValor(this)">0</button>
+                <button class="item" onclick="inserirValor(this)">,</button>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
